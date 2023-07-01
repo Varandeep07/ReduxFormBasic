@@ -1,0 +1,98 @@
+.container {
+	background-color: rgb(232, 232, 232);
+	padding: 20px;
+}
+.education-fields {
+	display: flex;
+	flex-direction: column;
+	width: 420px;
+	input {
+		border-radius: 2px;
+		padding: 0px 6px 0px 6px;
+		font-family: 'Poppins';
+	}
+	h3 {
+		color: grey;
+		font-weight: 500;
+	}
+}
+.education-box {
+	display: flex;
+	flex-wrap: wrap;
+	width: 880px;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.edu-section {
+	h2 {
+		width: fit-content;
+		color: #303030;
+	}
+	p {
+		font-size: 20px;
+		color: grey;
+	}
+}
+.update-profile {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	border-radius: 20px;
+	background-color: white;
+}
+.input-field {
+	height: 40px;
+	border: 2px solid #6864ff;
+}
+.marksheet-box {
+	width: 880px;
+	height: 400px;
+	border: 2px dotted grey;
+	border-radius: 23px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	button {
+		border: none;
+		height: 60px;
+		width: 200px;
+		background-color: #6864ff;
+		color: white;
+		border-radius: 20px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		p {
+			font-size: 16px;
+		}
+	}
+}
+.bottom-btns {
+	display: flex;
+	justify-content: space-between;
+	width: 880px;
+	margin-top: 6px;
+}
+.back-btn {
+	width: 100px;
+	height: 40px;
+	border: 2px solid #6864ff;
+	border-radius: 12px;
+	color: #6864ff;
+	margin-top: 16px;
+	background-color: white;
+	font-size: medium;
+}
+.update-btn {
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 12px;
+	color: white;
+	margin-top: 16px;
+	background-color: #6864ff;
+	font-size: medium;
+}
